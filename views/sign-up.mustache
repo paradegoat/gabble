@@ -1,0 +1,43 @@
+
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" href="sign-up.css">
+  </head>
+    <body>
+      <h3><a href ="/feed">Gabble</a></h3>
+      <h3><a href ="/new-gab">Create a new gab</a></h3>
+      <h3>Logged in as {{}}</h3>
+      <h3><a href ="/sign-up">Sign up</a></h3>
+      <h3><a href= "/likes">Likes</a></h3>
+      <h2>Log In</h2>
+      <form action="/signup" method="post">
+      <h1 class="h1">Sign Up</h1>
+      <fieldset>
+
+        <div class="box">
+          <label for="name">Name</label>
+            <input required type="text" name="name" placeholder="name">
+        </div>
+        <div class="box">
+          <label for="email">Email</label>
+            <input type="text" name="email" placeholder="likethis@example.com">
+        </div>
+
+
+        <div class="box">
+          <label for="username">Username</label>
+            <input type="text" name="username" placeholder="what do you wish your parents named you + random numbers?">
+        </div>
+        <div class="box">
+          <label for="password">Password</label>
+            <input type="text" name="password" placeholder="password">
+        </div>
+
+        <div class="form__submit-button">
+          <input type="submit">
+        </div>
+      </fieldset>
+    </form>
+    </body>
+</html>
